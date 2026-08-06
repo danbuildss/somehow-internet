@@ -1,10 +1,9 @@
 export default function Footer() {
   return (
     <footer aria-label="Site footer">
-      <div className="footer-left">
-        <span className="footer-copy">Somehow Internet © 2026</span>
-        <span className="footer-built">Built by Dan Ewurum</span>
-      </div>
+      <span className="footer-copy">
+        Somehow Internet © 2026 / Built by Dan Ewurum
+      </span>
       <nav className="footer-right" aria-label="Footer links">
         <a
           href="https://x.com/danbuildss"
