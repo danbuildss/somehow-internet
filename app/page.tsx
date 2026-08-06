@@ -6,10 +6,12 @@ import AboutSection from "./components/AboutSection";
 import CreatorSection from "./components/CreatorSection";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
+import PageEffects from "./components/PageEffects";
 
 export default function Home() {
   return (
-    <main className="flex flex-col flex-1">
+    <>
+      <PageEffects />
       <Navbar />
       <Hero />
       <ProductSection />
@@ -18,6 +20,6 @@ export default function Home() {
       <CreatorSection />
       <FinalCTA />
       <Footer />
-    </main>
+    </>
   );
 }
