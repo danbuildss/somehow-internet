@@ -1,3 +1,5 @@
+import { XIcon, GitHubIcon, TelegramIcon, EmailIcon } from "./Icons";
+
 export default function Footer() {
   return (
     <footer aria-label="Site footer">
@@ -11,7 +13,15 @@ export default function Footer() {
           rel="noopener noreferrer"
           aria-label="X"
         >
-          X
+          <XIcon size={13} />
+        </a>
+        <a
+          href="https://t.me/somehowinternet"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Telegram"
+        >
+          <TelegramIcon size={13} />
         </a>
         <a
           href="https://github.com/danbuildss"
@@ -19,10 +29,10 @@ export default function Footer() {
           rel="noopener noreferrer"
           aria-label="GitHub"
         >
-          GitHub
+          <GitHubIcon size={13} />
         </a>
         <a href="mailto:hello.danbuildss@gmail.com" aria-label="Email">
-          Email
+          <EmailIcon size={13} />
         </a>
       </nav>
     </footer>
