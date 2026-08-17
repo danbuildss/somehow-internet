@@ -8,14 +8,14 @@ export default function TelegramSection() {
         className="eyebrow reveal"
         style={{ "--reveal-delay": "0s" } as React.CSSProperties}
       >
-        Community
+        Telegram Channel
       </p>
       <div
         className="reveal"
         style={{ "--reveal-delay": "0.08s" } as React.CSSProperties}
       >
         <h2 className="tg-heading" id="community-h">
-          The Channel
+          SOMEHOW
         </h2>
         <p className="tg-desc">
           We post what we&rsquo;re building, opportunities worth knowing about
