@@ -1,3 +1,5 @@
+import { XIcon, TelegramIcon } from "./Icons";
+
 export default function Navbar() {
   return (
     <nav className="site-nav" id="nav" aria-label="Main navigation">
@@ -10,11 +12,23 @@ export default function Navbar() {
         <li>
           <a
             href="https://x.com/danbuildss"
+            className="nav-icon-link"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="X"
+            aria-label="Dan on X"
           >
-            X ↗
+            <XIcon size={14} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://t.me/somehowinternet"
+            className="nav-icon-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Somehow Internet on Telegram"
+          >
+            <TelegramIcon size={14} />
           </a>
         </li>
       </ul>
