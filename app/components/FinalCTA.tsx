@@ -1,4 +1,4 @@
-import { XIcon, TelegramIcon, EmailIcon } from "./Icons";
+import { TelegramIcon, EmailIcon } from "./Icons";
 import React from "react";
 
 export default function FinalCTA() {
@@ -29,15 +29,6 @@ export default function FinalCTA() {
         >
           <TelegramIcon size={14} />
           Join on Telegram
-        </a>
-        <a
-          href="https://x.com/danbuildss"
-          className="btn btn-outline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <XIcon size={13} />
-          Follow on X
         </a>
         <a href="mailto:hello.danbuildss@gmail.com" className="btn btn-outline">
           <EmailIcon size={14} />
