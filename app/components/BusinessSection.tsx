@@ -9,9 +9,9 @@ export default function BusinessSection() {
     setStatus("loading");
     const data = Object.fromEntries(new FormData(e.currentTarget));
     try {
-      const res = await fetch("https://api.web3forms.com/submit", {
+      const res = await fetch("https://formspree.io/f/mgavyqzz", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
         body: JSON.stringify(data),
       });
       setStatus(res.ok ? "success" : "error");
@@ -48,9 +48,7 @@ export default function BusinessSection() {
           <p className="biz-success">Got it. We&apos;ll be in touch.</p>
         ) : (
           <form className="biz-form" onSubmit={handleSubmit} noValidate>
-            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY" />
-            <input type="hidden" name="subject" value="New enquiry — Somehow Internet" />
-            <input type="hidden" name="from_name" value="Somehow Internet" />
+            <input type="hidden" name="_subject" value="New enquiry — Somehow Internet" />
 
             <div className="biz-field">
               <label className="biz-label" htmlFor="biz-name">Name</label>
