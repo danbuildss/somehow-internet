@@ -1,31 +1,17 @@
 const products = [
   {
-    name: "WhyBase",
-    desc: "Media and conversations documenting the people, products and ideas shaping the next internet.",
-    type: "Media",
-    status: "In development",
+    name: "Luca",
+    desc: "Your financial employee onchain. Watches your wallets, keeps your books, remembers financial context and tells you what matters.",
+    type: "Financial Agent",
+    status: "Building",
     dim: true,
-  },
-  {
-    name: "DropIN",
-    desc: "A platform that let creators and brands reward their audience instantly",
-    type: "Product",
-    status: "Building",
-    dim: false,
-  },
-  {
-    name: "Zetta",
-    desc: "Financial Intelligence infrastructure for the agent economy.",
-    type: "Product",
-    status: "Building",
-    dim: false,
   },
   {
     name: "CORTX",
-    desc: "Monitoring and reliability for x402 endpoints.",
+    desc: "Reliability infrastructure for x402. Monitor paid APIs end-to-end, from availability and payment to delivery and schema validation.",
     type: "Infrastructure",
-    status: "Private beta",
-    dim: true,
+    status: "Live",
+    dim: false,
   },
 ];
 
@@ -40,7 +26,7 @@ export default function ProductSection() {
         id="products-h"
         style={{ "--reveal-delay": "0.1s" } as React.CSSProperties}
       >
-        Things we&apos;re building
+        What we&apos;re working on
       </h2>
 
       <div className="product-list" role="list">
