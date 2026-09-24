@@ -1,13 +1,15 @@
 const products = [
   {
     name: "Luca",
+    href: "https://www.askluca.xyz/",
     desc: "Your financial employee onchain. Watches your wallets, keeps your books, remembers financial context and tells you what matters.",
     type: "Financial Agent",
-    status: "Building",
+    status: "Private Beta",
     dim: true,
   },
   {
     name: "CORTX",
+    href: "https://www.usecortx.dev/overview",
     desc: "Reliability infrastructure for x402. Monitor paid APIs end-to-end, from availability and payment to delivery and schema validation.",
     type: "Infrastructure",
     status: "Live",
@@ -33,9 +35,11 @@ export default function ProductSection() {
         {products.map((p) => (
           <a
             key={p.name}
-            href="#"
+            href={p.href}
             className="product-row reveal"
             role="listitem"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label={`${p.name} — ${p.type}. ${p.status}`}
           >
             <span className="p-name">{p.name}</span>
