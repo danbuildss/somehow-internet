@@ -30,6 +30,15 @@ export default function FinalCTA() {
           <TelegramIcon size={14} />
           Join on Telegram
         </a>
+        <a
+          href="https://t.me/danbuildsss"
+          className="btn btn-outline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TelegramIcon size={14} />
+          Follow Dan
+        </a>
         <a href="mailto:hello.danbuildss@gmail.com" className="btn btn-outline">
           <EmailIcon size={14} />
           Get in touch
