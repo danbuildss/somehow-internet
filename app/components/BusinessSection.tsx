@@ -75,15 +75,39 @@ export default function BusinessSection() {
               />
             </div>
             <div className="biz-field">
-              <label className="biz-label" htmlFor="biz-project">
-                What are you building?
+              <label className="biz-label" htmlFor="biz-company">
+                Company / Project
+              </label>
+              <input
+                id="biz-company"
+                className="biz-input"
+                type="text"
+                name="company"
+                placeholder="What are you building?"
+              />
+            </div>
+            <div className="biz-field">
+              <label className="biz-label" htmlFor="biz-social">
+                Website / X
+              </label>
+              <input
+                id="biz-social"
+                className="biz-input"
+                type="text"
+                name="social"
+                placeholder="Link or @handle"
+              />
+            </div>
+            <div className="biz-field">
+              <label className="biz-label" htmlFor="biz-goal">
+                What are you trying to achieve?
               </label>
               <textarea
-                id="biz-project"
+                id="biz-goal"
                 className="biz-textarea"
                 name="message"
-                placeholder="Tell us about your project and what you need..."
-                rows={4}
+                placeholder={`Tell us what you're working toward, where you're stuck, or where you think Somehow could help.`}
+                rows={5}
                 required
               />
             </div>
