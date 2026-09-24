@@ -23,7 +23,7 @@ export default function PhilosophySection() {
           Conversations about the decisions, failures, uncertainty, people, luck
           and turning points behind where someone ended up.
         </p>
-        <p className="media-meta">Text + voice note conversations</p>
+        <p className="media-meta">Text &amp; voice note conversations</p>
         <a
           href="https://danbuildsss.substack.com/"
           className="btn btn-outline"

@@ -22,13 +22,13 @@ export default function FinalCTA() {
         role="group"
       >
         <a
-          href="https://t.me/somehowinternet"
+          href="https://t.me/danbuildsss"
           className="btn btn-solid"
           target="_blank"
           rel="noopener noreferrer"
         >
           <TelegramIcon size={14} />
-          Join on Telegram
+          Reach out on Telegram
         </a>
         <a href="mailto:hello.danbuildss@gmail.com" className="btn btn-outline">
           <EmailIcon size={14} />
