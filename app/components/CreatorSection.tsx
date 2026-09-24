@@ -14,10 +14,10 @@ export default function CreatorSection() {
         <p className="founder-role">Creator at Somehow Internet</p>
         <p className="founder-bio">
           Somehow Internet is currently run by Dan Ewurum, an internet-native
-          creator working across onchain finance, open-source software and media.
+          creator working across software, AI, onchain finance, media and business.
         </p>
         <p className="founder-bio">
-          He is currently creating WhyBase and working on DropIN, Zetta and CORTX.
+          Currently building Luca and CORTX.
         </p>
         <div className="founder-links" role="group" aria-label="Dan's links">
           <a

@@ -17,10 +17,10 @@ export default function Hero() {
         ))}
       </h1>
 
-      <p className="hero-sub">We build internet products. Somehow.</p>
+      <p className="hero-sub">We build things for the internet. Somehow.</p>
       <p className="hero-desc">
-        Somehow Internet is an independent company creating open-source software,
-        infrastructure and media for the onchain economy.
+        Products, businesses and media from an independent internet company
+        based in Nigeria.
       </p>
 
       <div className="hero-btns" role="group" aria-label="Hero actions">
