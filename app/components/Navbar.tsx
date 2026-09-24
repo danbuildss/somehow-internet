@@ -13,11 +13,11 @@ export default function Navbar() {
         <li><a href="#about">About</a></li>
         <li>
           <a
-            href="https://x.com/danbuildss"
+            href="https://x.com/somehowinternet"
             className="nav-icon-link"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Dan on X"
+            aria-label="Somehow Internet on X"
           >
             <XIcon size={14} />
           </a>

@@ -1,4 +1,4 @@
-import { XIcon, GitHubIcon, TelegramIcon, EmailIcon } from "./Icons";
+import { XIcon, GitHubIcon, TelegramIcon } from "./Icons";
 
 export default function Footer() {
   return (
@@ -8,10 +8,10 @@ export default function Footer() {
       </span>
       <nav className="footer-right" aria-label="Footer links">
         <a
-          href="https://x.com/danbuildss"
+          href="https://x.com/somehowinternet"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="X"
+          aria-label="Somehow Internet on X"
         >
           <XIcon size={13} />
         </a>
@@ -19,20 +19,17 @@ export default function Footer() {
           href="https://t.me/somehowinternet"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Telegram"
+          aria-label="Somehow Internet on Telegram"
         >
           <TelegramIcon size={13} />
         </a>
         <a
-          href="https://github.com/danbuildss"
+          href="https://github.com/somehowinternet"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="GitHub"
+          aria-label="Somehow Internet on GitHub"
         >
           <GitHubIcon size={13} />
-        </a>
-        <a href="mailto:hello.danbuildss@gmail.com" aria-label="Email">
-          <EmailIcon size={13} />
         </a>
       </nav>
     </footer>
