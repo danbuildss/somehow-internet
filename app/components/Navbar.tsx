@@ -10,6 +10,7 @@ export default function Navbar() {
         <li><a href="#products">Products</a></li>
         <li><a href="#media">Media</a></li>
         <li><a href="#business">Business</a></li>
+        <li><a href="#offline">Offline</a></li>
         <li><a href="#about">About</a></li>
         <li>
           <a
