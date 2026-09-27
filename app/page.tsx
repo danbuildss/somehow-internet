@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import ProductSection from "./components/ProductSection";
 import PhilosophySection from "./components/PhilosophySection";
 import BusinessSection from "./components/BusinessSection";
+import OfflineSection from "./components/OfflineSection";
 import AboutSection from "./components/AboutSection";
 import CreatorSection from "./components/CreatorSection";
 import TelegramSection from "./components/TelegramSection";
@@ -19,6 +20,7 @@ export default function Home() {
       <ProductSection />
       <PhilosophySection />
       <BusinessSection />
+      <OfflineSection />
       <AboutSection />
       <CreatorSection />
       <TelegramSection />

@@ -10,19 +10,21 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Somehow Internet",
   description:
-    "An independent internet product company building open-source products for the onchain economy.",
+    "An independent internet company creating products, businesses, media and experiments from Nigeria.",
   metadataBase: new URL("https://somehowinternet.com"),
   openGraph: {
     title: "Somehow Internet",
-    description: "Building open-source products for the onchain economy.",
+    description:
+      "An independent internet company creating products, businesses, media and experiments from Nigeria.",
     type: "website",
     siteName: "Somehow Internet",
   },
   twitter: {
     card: "summary",
     title: "Somehow Internet",
-    description: "Building open-source products for the onchain economy.",
-    creator: "@danbuildss",
+    description:
+      "An independent internet company creating products, businesses, media and experiments from Nigeria.",
+    creator: "@somehowinternet",
   },
 };
 

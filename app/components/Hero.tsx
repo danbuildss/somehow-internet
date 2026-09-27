@@ -19,8 +19,8 @@ export default function Hero() {
 
       <p className="hero-sub">We build things for the internet. Somehow.</p>
       <p className="hero-desc">
-        Products, businesses and media from an independent internet company
-        based in Nigeria.
+        An independent internet company creating products, businesses, media
+        and experiments from Nigeria.
       </p>
 
       <div className="hero-btns" role="group" aria-label="Hero actions">
