@@ -126,6 +126,17 @@ export default function BusinessSection() {
                 Something went wrong. Email us at hello.danbuildss@gmail.com
               </p>
             )}
+            <p className="biz-cal">
+              or{" "}
+              <a
+                href="https://cal.com/danbuildss/30min"
+                className="biz-cal-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a 30-min call →
+              </a>
+            </p>
           </form>
         )}
       </div>
