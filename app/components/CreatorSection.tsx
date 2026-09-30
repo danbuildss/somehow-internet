@@ -14,7 +14,7 @@ export default function CreatorSection() {
         <p className="founder-role">Creator at Somehow Internet</p>
         <p className="founder-bio">
           Somehow Internet is currently run by Dan Ewurum, an internet-native
-          creator working across software, AI, onchain finance, media and business.
+          creator working across products, AI, onchain finance, media and business.
         </p>
         <p className="founder-bio">
           Currently building Luca and CORTX.

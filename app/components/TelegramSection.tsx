@@ -18,14 +18,17 @@ export default function TelegramSection() {
           SOMEHOW
         </h2>
         <p className="tg-desc">
-          We post what we&rsquo;re building, opportunities worth knowing about
-          — hackathons, grants, AI moves — and what ships from Somehow.
-          No discussion. Just signal.
+          Follow what we&rsquo;re building.
         </p>
+        <p className="tg-desc">
+          Product updates, experiments, things we&rsquo;re learning and whatever
+          is happening inside Somehow.
+        </p>
+        <p className="tg-desc">No discussion. Just signal.</p>
         <ul className="tg-items" role="list">
-          <li>Build updates from Somehow</li>
-          <li>AI hackathons &amp; grants worth entering</li>
-          <li>Products our builders ship</li>
+          <li>What we&rsquo;re building</li>
+          <li>Experiments we&rsquo;re running</li>
+          <li>Things worth knowing about</li>
         </ul>
         <a
           href="https://t.me/somehowinternet"
