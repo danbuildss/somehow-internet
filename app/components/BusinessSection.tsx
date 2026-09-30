@@ -33,15 +33,20 @@ export default function BusinessSection() {
         style={{ "--reveal-delay": "0.08s" } as React.CSSProperties}
       >
         <h2 className="biz-heading" id="business-h">
-          Growth, partnerships<br />& distribution.
+          Partnerships that lead somewhere.
         </h2>
         <p className="biz-body">
-          We work with internet-native companies on growth, partnerships and
-          distribution.
+          We help early-stage internet companies find and start the right
+          partnerships.
         </p>
+        <p className="biz-sub biz-offer-name">PARTNERSHIP SPRINT</p>
         <p className="biz-sub">
-          Research, market intelligence and execution — using AI to move faster
-          without removing the human relationships that make things happen.
+          In 30 days, we research your market, identify the companies you should
+          know, develop the partnership angles, find the right people and help
+          start the conversations.
+        </p>
+        <p className="biz-sub biz-steps">
+          Research → Map → Prioritize → Angle → Connect → Track
         </p>
 
         {status === "success" ? (
@@ -98,13 +103,13 @@ export default function BusinessSection() {
             </div>
             <div className="biz-field">
               <label className="biz-label" htmlFor="biz-goal">
-                What are you trying to achieve?
+                What partnerships are you looking for?
               </label>
               <textarea
                 id="biz-goal"
                 className="biz-textarea"
                 name="message"
-                placeholder={`Tell us what you're working toward, where you're stuck, or where you think Somehow could help.`}
+                placeholder={`Tell us what you're trying to unlock...`}
                 rows={5}
                 required
               />
@@ -114,7 +119,7 @@ export default function BusinessSection() {
               className="btn btn-solid biz-submit"
               disabled={status === "loading"}
             >
-              {status === "loading" ? "Sending…" : "Send it →"}
+              {status === "loading" ? "Sending…" : "Start a conversation →"}
             </button>
             {status === "error" && (
               <p className="biz-error">
