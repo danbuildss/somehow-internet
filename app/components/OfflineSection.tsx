@@ -30,12 +30,26 @@ export default function OfflineSection() {
           <p className="offline-event-detail">Port Harcourt, Nigeria</p>
           <p className="offline-event-detail">November 2026 &middot; 4–7 PM</p>
           <div className="offline-badges">
-            <span className="offline-badge">Application Only</span>
+            <span className="offline-badge">GitHub = Entry</span>
             <span className="offline-badge">Coming November</span>
           </div>
         </div>
 
-        <p className="offline-access">Your GitHub is your access.</p>
+        <p className="offline-access">
+          If you&rsquo;re shipping, you&rsquo;re in. Your GitHub is your entry.
+        </p>
+        <p className="offline-desc offline-note">
+          Details soon.{" "}
+          <a
+            href="https://t.me/somehowinternet"
+            className="offline-inline-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join the Telegram
+          </a>{" "}
+          to hear first.
+        </p>
 
         <a
           href="/offline"

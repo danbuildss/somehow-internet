@@ -45,9 +45,22 @@ export default function OfflinePage() {
 
         <section className="offline-page-section">
           <p className="offline-page-label">Entry</p>
-          <p className="offline-page-body">OFFLINE is free and application-only.</p>
-          <p className="offline-page-access">Your GitHub is your access.</p>
-          <p className="offline-page-body">Applications aren&rsquo;t open yet.</p>
+          <p className="offline-page-body">OFFLINE is free. No applications.</p>
+          <p className="offline-page-access">
+            If you&rsquo;re shipping, you&rsquo;re in. Your GitHub is your entry.
+          </p>
+          <p className="offline-page-body">
+            Details coming soon.{" "}
+            <a
+              href="https://t.me/somehowinternet"
+              className="offline-page-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join the Telegram
+            </a>{" "}
+            to hear first.
+          </p>
           <p className="offline-page-status">Coming November 2026</p>
         </section>
 

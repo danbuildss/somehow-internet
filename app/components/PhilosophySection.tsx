@@ -30,7 +30,7 @@ export default function PhilosophySection() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read SOMEHOW →
+          First conversations coming soon. Follow along →
         </a>
       </div>
     </section>

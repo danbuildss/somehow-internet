@@ -18,12 +18,12 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ProductSection />
+      <TelegramSection />
       <PhilosophySection />
       <BusinessSection />
       <OfflineSection />
       <AboutSection />
       <CreatorSection />
-      <TelegramSection />
       <FinalCTA />
       <Footer />
     </>
