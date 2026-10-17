@@ -1,4 +1,5 @@
 import { XIcon, TelegramIcon } from "./Icons";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
@@ -33,6 +34,9 @@ export default function Navbar() {
           >
             <TelegramIcon size={14} />
           </a>
+        </li>
+        <li>
+          <ThemeToggle />
         </li>
       </ul>
     </nav>

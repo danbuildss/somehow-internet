@@ -28,7 +28,7 @@ export default function Hero() {
           See what we&apos;re building
         </a>
         <a
-          href="https://x.com/danbuildss"
+          href="https://x.com/somehowinternet"
           className="btn btn-outline"
           target="_blank"
           rel="noopener noreferrer"

@@ -15,11 +15,8 @@ export default function TelegramSection() {
         style={{ "--reveal-delay": "0.08s" } as React.CSSProperties}
       >
         <h2 className="tg-heading" id="community-h">
-          SOMEHOW
-        </h2>
-        <p className="tg-desc">
           Follow what we&rsquo;re building.
-        </p>
+        </h2>
         <p className="tg-desc">
           Product updates, experiments, things we&rsquo;re learning and whatever
           is happening inside Somehow.
