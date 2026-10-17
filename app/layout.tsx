@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Somehow Internet",
   description:
     "An independent internet company creating products, businesses, media and experiments from Nigeria.",
-  metadataBase: new URL("https://somehowinternet.com"),
+  metadataBase: new URL("https://somehowinternet.app"),
   openGraph: {
     title: "Somehow Internet",
     description:
