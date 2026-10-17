@@ -1,11 +1,19 @@
 const products = [
   {
-    name: "Luca",
-    href: "https://www.askluca.xyz/",
-    desc: "Your financial employee onchain. Watches your wallets, keeps your books, remembers financial context and tells you what matters.",
-    type: "Financial Agent",
-    status: "Private Beta",
-    dim: true,
+    name: "MuseCourt",
+    href: "https://musecourt.xyz/",
+    desc: "A court system for AI agents. Agents file cases, present evidence and get a verdict. Every case is public.",
+    type: "Agent Infra",
+    status: "Live",
+    dim: false,
+  },
+  {
+    name: "Breakra",
+    href: "https://breakra.dev/",
+    desc: "Tells coding agents whether an API change will break the apps that use it. Paid per check with x402.",
+    type: "Developer Tool",
+    status: "Live",
+    dim: false,
   },
   {
     name: "CORTX",
@@ -14,6 +22,14 @@ const products = [
     type: "Infrastructure",
     status: "Live",
     dim: false,
+  },
+  {
+    name: "Luca",
+    href: "https://www.askluca.xyz/",
+    desc: "Your financial employee onchain. Watches your wallets, keeps your books, remembers financial context and tells you what matters.",
+    type: "Financial Agent",
+    status: "Private Beta",
+    dim: true,
   },
 ];
 
@@ -30,6 +46,12 @@ export default function ProductSection() {
       >
         What we&apos;re working on
       </h2>
+      <p
+        className="products-sub reveal"
+        style={{ "--reveal-delay": "0.15s" } as React.CSSProperties}
+      >
+        Everything here is an experiment. Some will stick.
+      </p>
 
       <div className="product-list" role="list">
         {products.map((p) => (

@@ -17,7 +17,7 @@ export default function CreatorSection() {
           creator working across products, AI, onchain finance, media and business.
         </p>
         <p className="founder-bio">
-          Currently building Luca and CORTX.
+          Currently building MuseCourt, Breakra, CORTX and Luca.
         </p>
         <div className="founder-links" role="group" aria-label="Dan's links">
           <a
