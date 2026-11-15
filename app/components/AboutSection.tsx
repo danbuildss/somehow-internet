@@ -17,9 +17,8 @@ export default function AboutSection() {
             around ideas we believe should exist.
           </p>
           <p>
-            We build software, work with ambitious internet companies, tell
-            stories about people finding their way, and occasionally bring
-            internet people into the same room.
+            We build software, work with ambitious internet companies, publish
+            Oddpage, and occasionally bring internet people into the same room.
           </p>
           <p className="strong">Based in Nigeria. Built for the internet.</p>
         </div>
