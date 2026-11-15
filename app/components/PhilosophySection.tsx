@@ -1,4 +1,5 @@
 import React from "react";
+import Oddpage from "./Oddpage";
 
 export default function PhilosophySection() {
   return (
@@ -33,6 +34,8 @@ export default function PhilosophySection() {
           First conversations coming soon. Follow along →
         </a>
       </div>
+
+      <Oddpage />
     </section>
   );
 }

@@ -792,6 +792,131 @@ a { color: inherit; text-decoration: none; }
   margin: 24px 0 32px;
 }
 
+/* ── ODDPAGE ─────────────────────────── */
+.oddpage {
+  --op-bg: var(--text);
+  --op-fg: var(--bg);
+  --op-muted: color-mix(in srgb, var(--op-fg) 62%, var(--op-bg));
+  --op-line: color-mix(in srgb, var(--op-fg) 22%, var(--op-bg));
+  margin-top: 88px;
+  padding: 36px 44px 44px;
+  background: var(--op-bg);
+  color: var(--op-fg);
+  border-radius: 4px;
+}
+
+.op-strap {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--op-line);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--op-muted);
+}
+
+.op-wordmark {
+  font-family: var(--font-oddpage), Georgia, "Times New Roman", serif;
+  font-size: clamp(64px, 11.5vw, 156px);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 0.92;
+  margin: 26px 0 22px;
+}
+
+.op-rule {
+  height: 7px;
+  border-top: 3px solid var(--op-fg);
+  border-bottom: 1px solid var(--op-fg);
+}
+
+.op-tagline {
+  font-family: var(--font-oddpage), Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: clamp(22px, 2.6vw, 34px);
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  line-height: 1.2;
+  margin: 30px 0 16px;
+  text-wrap: balance;
+}
+
+.op-desc {
+  font-size: 16px;
+  color: var(--op-muted);
+  line-height: 1.7;
+  letter-spacing: -0.012em;
+  max-width: 600px;
+}
+
+.op-desks {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px 0 34px;
+  border-top: 1px solid var(--op-line);
+  border-bottom: 1px solid var(--op-line);
+}
+
+.op-desks li {
+  padding: 12px 18px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.op-desks li:first-child { padding-left: 0; }
+.op-desks li + li { border-left: 1px solid var(--op-line); }
+
+.op-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.op-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  border-radius: 3px;
+  white-space: nowrap;
+  transition: opacity 0.12s, border-color 0.12s;
+}
+
+.op-btn-solid {
+  background: var(--op-fg);
+  color: var(--op-bg);
+  border: 1px solid var(--op-fg);
+}
+.op-btn-solid:hover { opacity: 0.85; }
+
+.op-btn-outline {
+  color: var(--op-fg);
+  border: 1px solid var(--op-line);
+}
+.op-btn-outline:hover { border-color: var(--op-fg); }
+
+.oddpage .op-btn:focus-visible { outline-color: var(--op-fg); }
+
+@media (max-width: 768px) {
+  .oddpage { margin-top: 64px; padding: 24px 20px 28px; }
+  .op-strap { flex-direction: column; gap: 4px; }
+  .op-wordmark { margin: 20px 0 16px; }
+  .op-desks { gap: 10px 18px; padding: 14px 0; }
+  .op-desks li,
+  .op-desks li:first-child { padding: 0; }
+  .op-desks li + li { border-left: 0; }
+}
+
 /* ── BUSINESS ────────────────────────── */
 .biz-heading {
   font-size: clamp(28px, 4.2vw, 56px);
