@@ -1,5 +1,7 @@
 import React from "react";
+import Image from "next/image";
 import { XIcon } from "./Icons";
+import oddpageMark from "./oddpage-mark.png";
 
 const ODDPAGE = {
   x: "https://x.com/readoddpage",
@@ -21,9 +23,12 @@ export default function Oddpage() {
         <span>by Somehow Internet</span>
       </div>
 
-      <h3 className="op-wordmark" id="oddpage-h">
-        Oddpage
-      </h3>
+      <div className="op-masthead">
+        <Image src={oddpageMark} alt="" className="op-mark" loading="eager" />
+        <h3 className="op-wordmark" id="oddpage-h">
+          Oddpage
+        </h3>
+      </div>
 
       <div className="op-rule" role="presentation" />
 
