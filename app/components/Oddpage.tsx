@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import { XIcon } from "./Icons";
+import { XIcon, InstagramIcon, TikTokIcon } from "./Icons";
 import oddpageMark from "./oddpage-mark.png";
 
 const ODDPAGE = {
-  x: "https://x.com/readoddpage",
-  handle: "@readoddpage",
-  // Set to the final newsletter URL to show the subscribe button.
-  newsletterUrl: null as string | null,
+  newsletterUrl: "https://readoddpage.substack.com/",
+  socials: [
+    { name: "X", handle: "@readoddpage", href: "https://x.com/readoddpage", Icon: XIcon },
+    { name: "Instagram", handle: "@readoddpage", href: "https://www.instagram.com/readoddpage/", Icon: InstagramIcon },
+    { name: "TikTok", handle: "@readoddpage_", href: "https://www.tiktok.com/@readoddpage_", Icon: TikTokIcon },
+  ],
   desks: ["Technology", "Business", "AI", "Internet Culture", "Magic Internet Money"],
 };
 
@@ -47,26 +49,30 @@ export default function Oddpage() {
       </ul>
 
       <div className="op-actions">
-        {ODDPAGE.newsletterUrl && (
-          <a
-            href={ODDPAGE.newsletterUrl}
-            className="op-btn op-btn-solid"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Subscribe to the newsletter →
-          </a>
-        )}
         <a
-          href={ODDPAGE.x}
-          className={`op-btn ${ODDPAGE.newsletterUrl ? "op-btn-outline" : "op-btn-solid"}`}
+          href={ODDPAGE.newsletterUrl}
+          className="op-btn op-btn-solid"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Oddpage on X, ${ODDPAGE.handle}`}
         >
-          <XIcon size={13} />
-          Follow {ODDPAGE.handle}
+          Subscribe to the newsletter →
         </a>
+        <ul className="op-socials" aria-label="Follow Oddpage">
+          {ODDPAGE.socials.map(({ name, handle, href, Icon }) => (
+            <li key={name}>
+              <a
+                href={href}
+                className="op-social"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Oddpage on ${name}, ${handle}`}
+                title={`${name} · ${handle}`}
+              >
+                <Icon size={15} />
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </article>
   );
